@@ -1,2 +1,14 @@
-# sum-of-two-numbers.c
-This is the code in the c for sum of two numbers (simple math operator for beginners) 
+//sum of two numbers in c
+#include<stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("enter the value of a: ");
+    scanf("%d",&a);
+    printf("enter the value of b: ");
+    scanf("%d",&b);
+    sum=a+b;
+    printf("the sum is: %d",sum);
+    return 0;
+ 
+}
